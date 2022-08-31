@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
 
+import "./App.css";
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import Error from "./components/Error";
+import Services from "./components/Services";
+import Experience from "./components/Experience";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// google how to use react-loaders
+// toastify
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/experience' element={<Experience />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='*' element={<Error />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
