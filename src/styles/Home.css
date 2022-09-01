@@ -1,7 +1,107 @@
 /** @format */
-
-small {
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@100;700&family=Karla:wght@300&family=Poppins:wght@200&display=swap");
+@import "animate.css";
+.home-div {
+  display: flex;
+  padding-top: 60px;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+small p {
   letter-spacing: 3px;
   word-spacing: 1.2px;
+}
+small {
+  letter-spacing: 4px;
+  word-spacing: 1.4px;
   font-weight: bold;
+
+  margin-top: 40px;
+}
+h2 {
+  font-family: "Barlow", sans-serif;
+  font-stretch: expanded;
+}
+img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 60%;
+  height: 60%;
+  border: 2px solid #e11d48;
+  cursor: pointer;
+  animation: backInDown 1s 2.3s backwards;
+  -webkit-animation: backInDown 1s 2.3s backwards;
+  transition: all 0.6s 0.1s ease;
+  -webkit-transition: all 0.6s 0.1s ease;
+  -moz-transition: all 0.6s 0.1s ease;
+  -ms-transition: all 0.6s 0.1s ease;
+  -o-transition: all 0.6s 0.1s ease;
+}
+.info {
+  animation: backInDown 1s 1.1s backwards;
+  -webkit-animation: backInDown 1s 1.1s backwards;
+  transition: all 0.6s 0.1s ease;
+  -webkit-transition: all 0.6s 0.1s ease;
+  -moz-transition: all 0.6s 0.1s ease;
+  -ms-transition: all 0.6s 0.1s ease;
+  -o-transition: all 0.6s 0.1s ease;
+}
+.tech {
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+}
+.tech:hover {
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  font-weight: bolder;
+  background-color: lightgray;
+  transition: all 0.5s ease;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+img:hover {
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  box-shadow: 2px 3px 5px #e11d48;
+}
+@media screen and (max-width: 640px) {
+  .home-div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    border: 2px solid #e11d48;
+    cursor: pointer;
+    animation: backInDown 1s 2.3s backwards;
+    -webkit-animation: backInDown 1s 2.3s backwards;
+    transition: all 0.6s 0.1s ease;
+    -webkit-transition: all 0.6s 0.1s ease;
+    -moz-transition: all 0.6s 0.1s ease;
+    -ms-transition: all 0.6s 0.1s ease;
+    -o-transition: all 0.6s 0.1s ease;
+  }
 }

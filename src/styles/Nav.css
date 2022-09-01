@@ -33,16 +33,15 @@ li {
   position: fixed;
   margin-top: 50px;
   bottom: -20px;
-  transition: all 0.8s ease-in-out;
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s 0.1s ease-in-out;
+  -webkit-transition: all 0.8s 0.1s ease-in-out;
+  -moz-transition: all 0.8s 0.1s ease-in-out;
+  -ms-transition: all 0.8s 0.1s ease-in-out;
+  -o-transition: all 0.8s 0.1s ease-in-out;
 }
 .hide-nav {
-  transition: all 0.8s ease-in-out;
+  transition: all 0.8s 0.1s ease-in-out;
   background-color: rgb(83, 3, 3);
-
   border: 1px solid rgba(255, 255, 255, 0.18);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -51,10 +50,10 @@ li {
   padding: 30px;
   position: fixed;
   bottom: -250px;
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s 0.1s ease-in-out;
+  -moz-transition: all 0.8s 0.1s ease-in-out;
+  -ms-transition: all 0.8s 0.1s ease-in-out;
+  -o-transition: all 0.8s 0.1s ease-in-out;
 }
 .nav-icon {
   font-size: 25px;
