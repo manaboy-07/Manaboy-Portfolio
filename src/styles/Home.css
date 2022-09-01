@@ -3,10 +3,13 @@
 @import "animate.css";
 .home-div {
   display: flex;
-  padding-top: 60px;
-  padding: 40px;
+
+  padding-bottom: 60px;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+
+  padding: 50px;
 }
 p {
   margin: 0;
@@ -30,8 +33,8 @@ h2 {
 img {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   border: 2px solid #e11d48;
   cursor: pointer;
   animation: backInDown 1s 2.3s backwards;

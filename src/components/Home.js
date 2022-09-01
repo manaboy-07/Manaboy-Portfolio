@@ -19,8 +19,8 @@ function Home() {
           <p className='text-sm'>{tech("Coding")}</p>
           <p className='text-sm'>{tech("Animation")}</p>
           <p className='text-sm'>{tech("Web Design")}</p>
-          <p className='text-sm'>{tech("Responsiveness")}</p>
-          <p className='text-sm'>{tech("Technology")}</p>
+          <p className='text-sm'>{tech("Front-end")}</p>
+          <p className='text-sm'>{tech("Back-end")}</p>
         </small>
         <h3 className='text-primary font-semibold  py-5'>
           I build top notch web applications using upcoming and popular
