@@ -3,7 +3,11 @@
 import React from "react";
 
 function Services() {
-  return <div>i am the sevices page</div>;
+  return (
+    <div>
+      <h1>In progress</h1>
+    </div>
+  );
 }
 
 export default Services;

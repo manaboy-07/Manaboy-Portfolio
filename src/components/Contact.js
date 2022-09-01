@@ -10,6 +10,7 @@ import {
   BsLinkedin,
   BsFacebook,
 } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
 function Contact() {
   const initialValues = {
     username: "",
@@ -54,7 +55,7 @@ function Contact() {
         <div>
           <form action='' onSubmit={handleSubmit}>
             <h1 className='text-primary font-bold'>Get in touch 👊👊👊</h1>
-            <div className='field'>
+            <div className='field field-1'>
               <label className='font-bold ' htmlFor='username'>
                 Name:{" "}
               </label>
@@ -67,7 +68,7 @@ function Contact() {
               />
               <p>{formErrors.username}</p>
             </div>
-            <div className='field'>
+            <div className='field field-2'>
               <label className='font-bold ' htmlFor='email'>
                 Email:{" "}
               </label>
@@ -80,7 +81,7 @@ function Contact() {
               />
               <p>{formErrors.email}</p>
             </div>
-            <div className='field'>
+            <div className='field field-3'>
               <label className='font-bold ' htmlFor='message'>
                 Message:{" "}
               </label>
@@ -93,14 +94,16 @@ function Contact() {
                 onChange={handleChange}></textarea>
             </div>
             <div className=' bg-primary my-3 rounded-md text-neutral'>
-              <button type='submit'>Submit</button>
+              <button type='submit'>
+                Send Message <FaTelegramPlane className='ml-3 btn-icon' />
+              </button>
             </div>
           </form>
         </div>
       </div>
       <div className='socials'>
-        <h1 className='text-center font-bold text-2xl text-primary'>
-          Follow me on Socials
+        <h1 className='text-center font-bold text-3xl py-4 text-primary'>
+          Socials
         </h1>
         <div className='social-icon-container   '>
           <div className='icon-social'>
@@ -145,6 +148,9 @@ function Contact() {
           </div>
         </div>
       </div>
+      <h5 className='text-sm text-center font-semibold p-2'>
+        Feel free to message me ❤
+      </h5>
     </section>
   );
 }

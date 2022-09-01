@@ -3,7 +3,7 @@
 import React from "react";
 
 function Experience() {
-  return <div>Experience</div>;
+  return <div> <h1>In progress</h1></div>;
 }
 
 export default Experience;
