@@ -18,7 +18,7 @@ label {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  background-color: rgb(248, 134, 157);
+  background-color: #fc7794;
   outline: 0;
   border: 0;
   font-size: 18px;
@@ -38,17 +38,18 @@ label {
 }
 
 input:focus {
-  background-color: rgb(248, 134, 157) !important;
+  background-color: #fc7794 !important;
 }
 input:active {
-  background-color: rgb(248, 134, 157) !important;
+  background-color: #fc7794 !important;
 }
 .field {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   margin-top: 20px;
-  background-color: rgb(248, 134, 157);
+  border: 2.5px solid #fc7794;
+  background-color: #fc7794;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -71,11 +72,12 @@ button {
 }
 button:hover .btn-icon {
   transition: all 0.5s 0.1s ease;
-  transform: translateX(8px);
-  -webkit-transform: translateX(8px);
-  -moz-transform: translateX(8px);
-  -ms-transform: translateX(8px);
-  -o-transform: translateX(8px);
+  font-size: 28px;
+  transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
   -webkit-transition: all 0.5s 0.1s ease;
   -moz-transition: all 0.5s 0.1s ease;
   -ms-transition: all 0.5s 0.1s ease;
@@ -89,7 +91,7 @@ button:hover .btn-icon {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  background-color: rgb(202, 201, 194);
+  background-color: #bdc0c9;
   width: 100%;
   padding-left: 12%;
   padding-top: 20px;
@@ -106,8 +108,8 @@ button:hover .btn-icon {
 .icon-social:hover {
   cursor: pointer;
   transition: all 0.4s linear;
-  box-shadow: 2px 3px 4px #f7f7f7;
-  background-color: #f5f5f5;
+  box-shadow: 1.2px 0.7px 3px 1px #a6bef0;
+  background-color: #f1e0e1;
   animation: headShake 1.3s 0.1s ease-in-out;
   -webkit-animation: headShake 1.3s 0.1s ease-in-out;
   -webkit-transition: all 0.4s linear;
@@ -127,7 +129,7 @@ h5 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    background-color: rgb(202, 201, 194);
+    background-color: #bdc0c9;
     width: 100%;
     padding-left: 10%;
     padding-top: 20px;

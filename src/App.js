@@ -10,6 +10,7 @@ import Error from "./components/Error";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 // google how to use react-loaders
 // toastify
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='*' element={<Error />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

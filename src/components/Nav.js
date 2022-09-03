@@ -29,10 +29,10 @@ function Nav() {
   return (
     <div>
       <div>
-        <nav className='hidden lg:block bg-neutral'>
+        <nav className='hidden lg:block bg-base-100'>
           <div className='flex justify-between p-2 big-nav'>
             <div className='logo'>
-              <h1 className='text-primary'>Manasseh</h1>
+              <h1 className='text-primary'>MANA-BOY</h1>
             </div>
             <ul className='text-primary'>
               <li className='hover:font-extrabold'>
@@ -60,7 +60,11 @@ function Nav() {
       <div className='sm:block lg:hidden '>
         <div className={show ? "myNav " : "hide-nav"}>
           <div className='icon-container'>
-            <Link to='/'>
+            <Link
+              to='/'
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}>
               <BsHouseDoorFill
                 className='nav-icon cursor-pointer '
                 onClick={falseShow}
@@ -69,7 +73,11 @@ function Nav() {
             </Link>
           </div>
           <div className='icon-container '>
-            <Link to='/contact'>
+            <Link
+              to='/contact'
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}>
               <BsFillCursorFill
                 className='nav-icon cursor-pointer '
                 onClick={falseShow}
@@ -78,7 +86,11 @@ function Nav() {
             </Link>
           </div>
           <div className='icon-container '>
-            <Link to='/about'>
+            <Link
+              to='/about'
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}>
               <BsFillPersonFill
                 className='nav-icon cursor-pointer'
                 onClick={falseShow}
@@ -87,7 +99,11 @@ function Nav() {
             </Link>
           </div>
           <div className='icon-container '>
-            <Link to='/services'>
+            <Link
+              to='/services'
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}>
               <BsBagCheckFill
                 className='nav-icon cursor-pointer '
                 onClick={falseShow}
@@ -96,7 +112,11 @@ function Nav() {
             </Link>
           </div>
           <div className='icon-container '>
-            <Link to='/projects'>
+            <Link
+              to='/projects'
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}>
               <FaBroom
                 className='nav-icon cursor-pointer'
                 onClick={falseShow}
@@ -105,7 +125,11 @@ function Nav() {
             </Link>
           </div>
           <div className='icon-container'>
-            <Link to='/experience'>
+            <Link
+              to='/experience'
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+              }}>
               <FaGlasses
                 className='nav-icon cursor-pointer'
                 onClick={falseShow}
