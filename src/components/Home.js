@@ -9,7 +9,7 @@ function Home() {
   };
   return (
     <div className='home-div'>
-      <div className='info  p-5 '>
+      <div className='info '>
         <h1 className='font-bold text-4xl text-primary py-3'>
           Hi there 👋 ,<h2 className='text-7xl '>I'm Manasseh</h2>
         </h1>
