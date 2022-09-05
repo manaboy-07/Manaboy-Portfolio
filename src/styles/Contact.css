@@ -129,7 +129,7 @@ h5 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    background-color: #bdc0c9;
+    background-color: rgb(224, 222, 222);
     width: 100%;
     padding-left: 10%;
     padding-top: 20px;
