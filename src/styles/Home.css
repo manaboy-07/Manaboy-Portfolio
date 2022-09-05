@@ -30,7 +30,7 @@ h2 {
   font-family: "Barlow", sans-serif;
   font-stretch: expanded;
 }
-img {
+.img-home {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   width: 70%;

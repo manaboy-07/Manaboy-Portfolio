@@ -31,7 +31,7 @@ function Home() {
         </h3>
       </div>
       <div className='home-img'>
-        <img src={pic} alt='manasseh' />
+        <img src={pic} alt='manasseh' className='img-home' />
       </div>
     </div>
   );

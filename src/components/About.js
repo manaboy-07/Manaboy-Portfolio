@@ -2,18 +2,11 @@
 
 import React from "react";
 import "../styles/About.css";
-import {
-  FaHtml5,
-  FaAngular,
-  FaCss3Alt,
-  FaJsSquare,
-  FaReact,
-  FaGitAlt,
-} from "react-icons/fa";
+import img from "../images/portfolio2.jpg";
 function Navbar() {
   return (
     <div className='about-container '>
-      <div className='about p-5 '>
+      <div className='about '>
         <h1 className='about-header text-5xl text-primary'>About Me</h1>
         <p className='text-secondary whitespace-normal py-4'>
           I'm a very ambitious front-end developer looking for a role in an
@@ -27,31 +20,12 @@ function Navbar() {
           time.Currently, I am looking for new career opportunities my current
           job position cannot provide.
         </p>
+        <p className='font-extrabold'>Simply put Coding is my Passion ❤</p>
       </div>
 
-      <div className='container about-page p-5'>
-        <div className='stage-cube-cont'>
-          <div className='cubespinner'>
-            <div className='face1'>
-              <FaHtml5 color='#F06529' />
-            </div>
-            <div className='face2'>
-              <FaAngular color='#e11d48' />
-            </div>
-            <div className='face3'>
-              <FaCss3Alt color='#28A4D9' />
-            </div>
-            <div className='face4'>
-              <FaJsSquare color='#EFD81D' />
-            </div>
-            <div className='face5'>
-              <FaReact color='#5ED4F4' />
-            </div>
-            <div className='face6'>
-              <FaGitAlt color='#Ec4d28' />
-            </div>
-          </div>
-        </div>
+      <div className='container about-page '>
+        <img src={img} alt='me' />
+        <p>I look good with a computer don't i ? 🤪👨‍💻👨‍💻</p>
       </div>
     </div>
   );
