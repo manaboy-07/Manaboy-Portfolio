@@ -91,7 +91,7 @@ button:hover .btn-icon {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  background-color: #bdc0c9;
+  background-color: rgb(224, 222, 222);
   width: 100%;
   padding-left: 12%;
   padding-top: 20px;
@@ -108,7 +108,7 @@ button:hover .btn-icon {
 .icon-social:hover {
   cursor: pointer;
   transition: all 0.4s linear;
-  box-shadow: 1.2px 0.7px 3px 1px #a6bef0;
+  box-shadow: 1.2px 0.7px 3px 1px #323742;
   background-color: #f1e0e1;
   animation: headShake 1.3s 0.1s ease-in-out;
   -webkit-animation: headShake 1.3s 0.1s ease-in-out;
@@ -117,8 +117,8 @@ button:hover .btn-icon {
   -ms-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
 }
-.icon-social p {
-  text-align: justify;
+.icon-social a p {
+  text-align: center;
 }
 h5 {
   letter-spacing: 3px;
