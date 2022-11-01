@@ -1,9 +1,51 @@
 /** @format */
 
 import React from "react";
-
+import "../styles/Experience.css";
 function Experience() {
-  return <div> <h1>In progress</h1></div>;
+  return (
+    <div>
+      <h1 className='text-primary text-extrabold text-3xl text-center p-4 m-4'>
+        Experience
+      </h1>
+
+      <section className='companies'>
+        <div className="exp-box">
+          <h1 className='text-2xl exp-header'> Aptech Computer Education</h1>
+          <p>Started Coding in aptech and learnt html, css and Javascript</p>
+          <p>
+            Aptech is a computer education training body that develops skills of
+            individuals and makes them <br /> useful to the digital and
+            technology world.
+          </p>
+          <p>
+            My journey began with them and i have been coding for one year now
+          </p>
+        </div>
+        <div className="exp-box">
+          <h1 className='text-2xl exp-header'>Kode-Camp</h1>
+          <p>Kode-camp is a cohort tech internship</p>
+          <p>
+            After learning html and css, i enrolled under the beginner front-end
+            track and built html and css projets{" "}
+          </p>
+          <p>
+            I learnt how to build forms , cool web animations with css and
+            amazing landing pages
+          </p>
+        </div>
+        <div className="exp-box">
+          <h1 className='text-2xl exp-header'>Side-Hustle Internship</h1>
+          <p>The side hustle Internship is a free cohort tech body</p>
+          <p>
+            During this cohort i learnt the basics of react and built my first
+            real world projects. I also learnt the use git and github and
+            accquired knowledge on deploying websites
+          </p>
+        </div>
+      </section>
+    </div>
+  );
 }
 
 export default Experience;

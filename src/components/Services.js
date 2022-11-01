@@ -59,7 +59,7 @@ function Services() {
           icon={<BsLaptop />}
           title={"Responsive Web Design"}
           description={
-            "Responsive design , a web development approach that creates dynamic changes to the appearance if a website, regardless of the screen size and orientation of the device. I develop and design the best mobile friendly sites using my knowledge on web development."
+            "Responsive design , a web development approach that creates dynamic changes to the appearance if a website, regardless of the screen size and orientation of the device. "
           }
         />
         <ServiceProps
