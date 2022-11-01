@@ -11,7 +11,7 @@ function Experience() {
 
       <section className='companies'>
         <div className="exp-box">
-          <h1 className='text-2xl exp-header'> Aptech Computer Education</h1>
+          <h1 className='text-2xl exp-header text-primary'> Aptech Computer Education</h1>
           <p>Started Coding in aptech and learnt html, css and Javascript</p>
           <p>
             Aptech is a computer education training body that develops skills of
@@ -23,7 +23,7 @@ function Experience() {
           </p>
         </div>
         <div className="exp-box">
-          <h1 className='text-2xl exp-header'>Kode-Camp</h1>
+          <h1 className='text-2xl exp-header text-primary'>Kode-Camp</h1>
           <p>Kode-camp is a cohort tech internship</p>
           <p>
             After learning html and css, i enrolled under the beginner front-end
@@ -35,7 +35,7 @@ function Experience() {
           </p>
         </div>
         <div className="exp-box">
-          <h1 className='text-2xl exp-header'>Side-Hustle Internship</h1>
+          <h1 className='text-2xl exp-header text-primary'>Side-Hustle Internship</h1>
           <p>The side hustle Internship is a free cohort tech body</p>
           <p>
             During this cohort i learnt the basics of react and built my first

@@ -1,7 +1,6 @@
 /** @format */
 
-@media screen and (max-width: 640px) {
-}
+
 
 .exp-header {
   text-align: center;
@@ -22,4 +21,10 @@
   -moz-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
   -o-transition: 0.3s ease;
+}
+
+@media screen and (max-width: 640px) {
+    .companies{
+        flex-direction: column;
+    }
 }
