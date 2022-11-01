@@ -14,7 +14,7 @@ function ProjectProps({ description, link, src }) {
             <a
               href={link}
               target='_blank'
-              className='bg-primary p-2 rounded-md text-white'>
+              className='bg-primary p-2 rounded-md text-white w-full'>
               View
               <BsFillArrowUpRightCircleFill className='inline text-xl m-2 text-white' />
             </a>
