@@ -61,6 +61,10 @@ function Contact() {
       })
       .catch((err) => console.log(err));
     notify();
+
+    form.email = "";
+    form.message = "";
+    form.username = "";
   };
 
   const notify = () => {

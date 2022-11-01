@@ -14,6 +14,7 @@
   transition: 0.3s ease;
   cursor: pointer;
   padding: 10px;
+  width: 100%;
   margin: 0px 4px;
   box-shadow: 3px 5px 10px rgb(110, 110, 110);
   -webkit-transition: 0.3s ease;
